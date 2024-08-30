@@ -126,7 +126,7 @@
                             </div>
                             <div class="col-xl-5 fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
                                 <div class="ticket-form p-5">
-                                    <h5 class="text-white text-uppercase mb-4 text-start">Get Free <spam class="text-primary">Quote</spam></h5>
+                                    <h5 class="text-white text-uppercase mb-4 text-start" style="font-weight: bold;">Get Free <spam class="text-primary">Quote</spam></h5>
                                     <form id="quoteForm">
                                         <div class="row g-4">
                                             <div class="col-12">
@@ -371,6 +371,423 @@
         </div>
         <!-- About End -->
 
+ <!-- About Start -->
+ <div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                <div class="about-img">
+                    <div class="rotate-left bg-dark"></div>
+                    <div class="rotate-right bg-dark"></div>
+                    <img src="img/attraction-3.jpg" class="img-fluid h-100" alt="img">
+                    <div class="bg-white experiences">
+                        <h1 class="display-3">20</h1>
+                        <h6 class="fw-bold">Years Of Experiences</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
+                <div class="about-item overflow-hidden">
+                    <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">About PestKit</h5>
+                    <h1 class="display-5 mb-2">World Best Pest Control Services Since 2008</h1>
+                    <p class="fs-5" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu smod tempor incididunt ut labore dolore magna aliqua.Quis ipsum suspen disse ultrices gravida Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-city fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Building</h5>
+                                    <h5>Cleaning</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-school fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Education</h5>
+                                    <h5>center</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-warehouse fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Warehouse</h5>
+                                    <h5>Cleaning</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-hospital fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Hospital</h5>
+                                    <h5>Cleaning</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-5">Find Services</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<style>
+    /*** About Start ***/
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 30px 30px 30px 30px ;
+    overflow: hidden;
+}
+
+.about-img::before {
+    content: "";
+    width: 100%;
+    height: 40%;
+    background: var(--bs-dark);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.about-img::after {
+    content: "";
+    width: 100%;
+    height: 60%;
+    background: var(--bs-primary);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rotate-left {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 28%;
+    left: -10%;
+    rotate: 25deg;
+    z-index: 2;
+}
+
+.rotate-right {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 28%;
+    right: -10%;
+    rotate: -25deg;
+    z-index: 2;
+}
+
+.about-img img {
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.experiences {
+    width: 160px;
+    height: 200px;
+    position: absolute;
+    top: -0;
+    right: 0;
+    padding: 35px 35px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 3;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {top: -202px;}
+    to {top: 102%;}
+}
+
+/*** About End ***/
+</style>
+
+
+
+
+ <!-- Header Start -->
+ <div class="container-fluid bg-dark p-0 mb-5">
+    <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
+                <h1 class="display-4 text-light mb-5">Enjoy Wonderful Day With Your Family</h1>
+                <div class="d-flex align-items-center pt-4 animated slideInDown">
+                    <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Read More</a>
+                    <button type="button" class="btn-play" data-bs-toggle="modal"
+                        data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                        <span></span>
+                    </button>
+                    <h6 class="text-white m-0 ms-4 d-none d-sm-block">Watch Video</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- Video Modal Start -->
+<div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Modal End -->
+
+<style>
+    /*** Header ***/
+.header-bg {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/bg-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.btn-play {
+    position: relative;
+    display: block;
+    box-sizing: content-box;
+    width: 16px;
+    height: 26px;
+    border-radius: 100%;
+    border: none;
+    outline: none !important;
+    padding: 18px 20px 20px 28px;
+    background: #FFFFFF;
+}
+
+.btn-play:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.btn-play:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    transition: all 200ms;
+}
+
+.btn-play span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    left: -1px;
+    border-left: 16px solid var(--primary);
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+        opacity: 0;
+    }
+}
+
+.modal-video .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    margin: 60px auto 0 auto;
+}
+
+.modal-video .modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.modal-video .close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: -30px;
+    z-index: 999;
+    font-size: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 1;
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.header-carousel .owl-dots {
+    position: absolute;
+    height: 45px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    transition: .5s;
+}
+
+.header-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.header-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+</style>
+
+<script>
+    
+    // Header carousel
+    $(".header-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        items: 1,
+        dots: true,
+        loop: true,
+        nav : true,
+        navText : [
+            '<i class="bi bi-chevron-left"></i>',
+            '<i class="bi bi-chevron-right"></i>'
+        ]
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
 
         <!-- Service Start -->
         <div class="container-fluid service py-5">
@@ -600,7 +1017,129 @@
         </div>
         <!-- Gallery End -->
 
+<!-- Animal Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6">
+                <p><span class="text-primary me-2">#</span>Our Animals</p>
+                <h1 class="display-5 mb-0">Let`s See Our <span class="text-primary">Zoofari</span> Awsome Animals</h1>
+            </div>
+            <div class="col-lg-6 text-lg-end">
+                <a class="btn btn-primary py-3 px-5" href="">Explore More Animals</a>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="animal-item" href="img/attraction-2.jpg" data-lightbox="animal">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/attraction-2.jpg" alt="">
+                                <div class="animal-text p-4">
+                                    <p class="text-white small text-uppercase mb-0">Animal</p>
+                                    <h5 class="text-white mb-0">Elephant</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Animal End -->
 
+<style>
+    /*** Animal ***/
+.animal-item {
+    position: relative;
+    display: block;
+}
+
+.animal-item .animal-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 100px !important;
+    opacity: 0;
+    transition: .5s;
+}
+
+.animal-item:hover .animal-text {
+    opacity: 1;
+    padding-bottom: 20px !important;
+}
+</style>
         <!-- Blog Start -->
         <div class="container-fluid blog pb-5">
             <div class="container pb-5">
