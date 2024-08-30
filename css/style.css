@@ -110,10 +110,11 @@
     padding: 35px 0;
     letter-spacing: 1px;
     color: var(--bs-dark);
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
     outline: none;
     transition: .5s;
+    font-weight: bold;
 }
 
 .sticky-top .navbar-light .navbar-nav .nav-link {
