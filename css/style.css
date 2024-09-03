@@ -337,6 +337,24 @@
     position: relative;
     z-index: 5;
 }
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-container img.active {
+    opacity: 1;
+    position: relative;
+}
+
 /*** Feature End ***/
 
 
