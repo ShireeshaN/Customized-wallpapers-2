@@ -969,14 +969,14 @@
 
 .wallpaper-item {
     position: relative;
-    margin: 15px;
+    margin: 10px;
     perspective: 1000px; /* Enables 3D perspective */
     transition: transform 0.5s ease-in-out;
 }
 
 .wallpaper-item img {
     width: 100%;
-    max-width: 400px; /* Ensures images are large */
+    max-width: 335px; /* Ensures images are large */
     height: auto;
     border-radius: 15px;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
