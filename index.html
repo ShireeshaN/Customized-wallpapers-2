@@ -276,7 +276,7 @@
 
 <!--buts-->
 
-<div class="button-container">
+<div class="button-container container pt-3 pb-2">
 	<button onclick="showImages('images1')" class="active">Customized Wallpapers</button>
 	<button onclick="showImages('images2')">Imported Wallpapers</button>
 	<button onclick="showImages('images3')">3D Blinds</button>
@@ -998,7 +998,11 @@
 
   .button-container {
 	  text-align: center;
-	  margin: 20px 0;
+	 
+     
+      justify-content: space-between;
+      align-items: center;
+
   }
   
   .button-container button {
@@ -1009,6 +1013,10 @@
 	  background-color: #FC3441;
 	  border-radius: 5px;
 	  color:white;
+      width:auto;
+      
+
+      
   }
   
   .button-container button.active {
@@ -1077,6 +1085,11 @@
 	  font-size: 18px;
 	  text-decoration: none;
   }
+
+  .button {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin between buttons as needed */
+}
   
   /* Mobile alignment */
   @media (max-width: 768px) {
