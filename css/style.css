@@ -1283,7 +1283,7 @@
 }
 
 .close-button:hover {
-    color: red;
+    color: #FC3441;
 }
 
 h2 {
@@ -1311,7 +1311,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 button {
     /* width: 100%; */
     padding: 10px;
-    background-color: #CA6014; /* Your preferred button color */
+    background-color: #FC3441; /* Your preferred button color */
     color: #fff;
     border: none;
     border-radius: 5px;
