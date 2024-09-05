@@ -1126,7 +1126,7 @@
 
 .footer .footer-item a {
     line-height: 35px;
-    color: var(--bs-body);
+  
     transition: 0.5s;
 }
 
@@ -1297,7 +1297,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 button {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     background-color: #CA6014; /* Your preferred button color */
     color: #fff;
