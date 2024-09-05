@@ -1321,3 +1321,7 @@ button:hover {
     background: linear-gradient(135deg, #1f2b7b, #fecb38);
     color: #fff;
 }
+
+.ccc{
+    font-size: 25px;
+}
