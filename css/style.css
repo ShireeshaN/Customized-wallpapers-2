@@ -128,7 +128,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 95px;
+    /* max-height: 95px; */
     transition: .5s;
 }
 
@@ -1185,12 +1185,19 @@
     height:50px;
     width:50px;
 }
-
-.logoo{
+.navbar-brand{
     height: 100%;
-    width:80px;
+    width:100px;
 }
-
+.navbar-brand .logoo{
+  width: 100%;
+}
+@media(max-width:992px){
+    .navbar-brand{
+       
+        width:40px;
+    }
+}
 
 
 .wallpaper-gallery {
