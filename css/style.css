@@ -337,7 +337,7 @@
 .bg-breadcrumb-residential{
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-imgs/6.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/newss/74.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,7 +372,7 @@
 .bg-breadcrumb-imported{
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-imgs/7.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/newss/72.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -384,7 +384,7 @@
 .bg-breadcrumb-about{
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-imgs/5.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/newss/23.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
