@@ -1478,7 +1478,7 @@ z-index: 1;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.tooltip-container:hover .tooltip4 {
+.tooltip-container:hover  .tooltip4 {
 top: -200%;
 opacity: 1;
 visibility: visible;
