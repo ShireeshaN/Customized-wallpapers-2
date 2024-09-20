@@ -30,15 +30,15 @@
     $(".header-carousel").owlCarousel({
         animateOut: 'slideOutDown',
         items: 1,
-        autoplay: true,
-        smartSpeed: 500,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-down"></i>'
-        ],
+        // autoplay: true,
+        // smartSpeed: 500,
+        // dots: false,
+        // loop: true,
+        // nav : true,
+        // navText : [
+        //     '<i class="bi bi-arrow-left"></i>',
+        //     '<i class="bi bi-arrow-down"></i>'
+        // ],
     });
 
 
@@ -138,40 +138,40 @@
 
 
 
-document.getElementById('quoteForm').addEventListener('submit', function(e) {
-    // Name validation: Only alphabets
-    const name = document.getElementById('name').value;
-    const nameRegex = /^[A-Za-z\s]+$/;
-    if (!nameRegex.test(name)) {
-        alert('Please enter only alphabets in the Name field.');
-        e.preventDefault(); // Prevent form submission
-        return;
-    }
+// document.getElementById('quoteForm').addEventListener('submit', function(e) {
+//     // Name validation: Only alphabets
+//     const name = document.getElementById('name').value;
+//     const nameRegex = /^[A-Za-z\s]+$/;
+//     if (!nameRegex.test(name)) {
+//         alert('Please enter only alphabets in the Name field.');
+//         e.preventDefault(); // Prevent form submission
+//         return;
+//     }
 
-    // Phone validation: 10 digits only
-    const phone = document.getElementById('phone').value;
-    const phoneRegex = /^\d{10}$/;
-    if (!phoneRegex.test(phone)) {
-        alert('Please enter a valid 10-digit phone number.');
-        e.preventDefault();
-        return;
-    }
+//     // Phone validation: 10 digits only
+//     const phone = document.getElementById('phone').value;
+//     const phoneRegex = /^\d{10}$/;
+//     if (!phoneRegex.test(phone)) {
+//         alert('Please enter a valid 10-digit phone number.');
+//         e.preventDefault();
+//         return;
+//     }
 
-    // Email validation: Must contain '@'
-    const email = document.getElementById('email').value;
-    if (!email.includes('@')) {
-        alert('Please enter a valid email address.');
-        e.preventDefault();
-        return;
-    }
+//     // Email validation: Must contain '@'
+//     const email = document.getElementById('email').value;
+//     if (!email.includes('@')) {
+//         alert('Please enter a valid email address.');
+//         e.preventDefault();
+//         return;
+//     }
 
-    // Service validation: At least one service must be selected
-    const services = document.getElementById('services').value;
-    if (services === "") {
-        alert('Please select a package.');
-        e.preventDefault();
-        return;
-    }
+//     // Service validation: At least one service must be selected
+//     const services = document.getElementById('services').value;
+//     if (services === "") {
+//         alert('Please select a package.');
+//         e.preventDefault();
+//         return;
+//     }
 
-    // All validations passed, form will submit
-});
+//     // All validations passed, form will submit
+// });

@@ -77,17 +77,27 @@
         <!-- Navbar & Hero End -->
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb-contact">
+        <div class="container-fluid thank-you">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>
-                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                   
-                    <li class="breadcrumb-item active text-primary">Contact</li>
-                </ol>    
+                <h4 class="display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Thank You Contacting for Us!</h4>
+                <p>We will get back to you as soon as possible</p>
+                
             </div>
         </div>
         <!-- Header End -->
+
+<style>
+.thank-you{
+display: grid;
+place-items: center;
+height: 100vh;
+}
+.thank-you h4,.thank-you p{
+    color: #000000 !important;
+}
+</style>
+
+
         <div class="whatsapp">
             <div class="tooltip-container">
                 <span class="text">
@@ -132,184 +142,7 @@
 
 
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="row g-5"> 
-                    <div class="col-12 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div>
-                            <div class="pb-5">
-                                <h4 class="text-primary">Get in Touch</h4>
-                                
-                            </div>
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="contact-add-item rounded bg-light p-4">
-                                        <div class="contact-icon text-primary mb-4">
-                                            <i class="fas fa-map-marker-alt fa-2x"></i>
-                                        </div>
-                                        <div>
-                                            <h4>Address</h4>
-                                            <p class="mb-0">502, MN Corner, above Swiss Castle Bakery, Kokapet, Hyderabad, Telangana 500075</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="contact-add-item rounded bg-light p-4">
-                                        <div class="contact-icon text-primary mb-4">
-                                            <i class="fas fa-envelope fa-2x"></i>
-                                        </div>
-                                        <div>
-                                            <h4>Mail Us</h4>
-                                            <p class="mb-0">customizedwallpapers@gmail.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="contact-add-item rounded bg-light p-4">
-                                        <div class="contact-icon text-primary mb-4">
-                                            <i class="fa fa-phone-alt fa-2x"></i>
-                                        </div>
-                                        <div>
-                                            <h4>Telephone</h4>
-                                            <p class="mb-0">7285967777</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <div class="d-flex justify-content-around bg-light rounded p-4">
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="https://www.instagram.com/customized.wallpaper/"><i class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="bg-light p-5 rounded h-100">
-                            <h4 class="text-primary mb-4">Send Your Message</h4>
-                            <form method="post" action="//submit.form" onSubmit="return validateForm();">
-                                <div style="max-width: 400px;">
-                                </div>
-                                <div style="padding-bottom: 18px;">Your Name<span style="color: red;"> *</span><br/>
-                                <input type="text" id="data_1" name="data_1"  class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
-                                <input type="text" id="data_2" name="data_2"  class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">Phone Number<span style="color: red;"> *</span><br/>
-                                <input type="number" id="data_3" name="data_3"  class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">Your Project<br/>
-                                <input type="text" id="data_4" name="data_4"  class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">Message<br/>
-                                <textarea id="data_5" false name="data_5"  rows="3" class="form-control"></textarea>
-                                </div>
-                                <div style="padding-bottom: 18px;"><input class="btn btn-primary w-100 py-3" name="skip_Submit" value="Submit" type="submit"/></div>
-                                <div>
-                                <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-                                <script src="https://www.100forms.com/js/FORMKEY:XPSZPWM9Z55Y" type="text/javascript"></script>
-                                </div>
-                                </form>
-                                
-                                <script type="text/javascript">
-                                function validateForm() {
-                                if (isEmpty(document.getElementById('data_1').value.trim())) {
-                                alert('Your Name is required!');
-                                return false;
-                                }
-                                if (isEmpty(document.getElementById('data_2').value.trim())) {
-                                alert('Email is required!');
-                                return false;
-                                }
-                                if (!validateEmail(document.getElementById('data_2').value.trim())) {
-                                alert('Email must be a valid email address!');
-                                return false;
-                                }
-                                if (isEmpty(document.getElementById('data_3').value.trim())) {
-                                alert('Phone Number is required!');
-                                return false;
-                                }
-                                return true;
-                                }
-                                function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-                                function validateEmail(email) {
-                                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-                                return isEmpty(email) || re.test(email);
-                                }
-                                </script>
-                            <!-- <form>
-                                <div class="row g-4">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
-                                            <label for="phone">Your Phone</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
-                                            <label for="project">Your Project</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                    </div>
-                                </div>
-                            </form> -->
-                        </div>
-                    </div>
-
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded h-100 pb-3">
-                            
-                            <iframe  class="rounded w-100" 
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15229.53142769607!2d78.3406687!3d17.3934048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb95c9579f6d4b%3A0x8c779a7039fb626d!2sCustomized%20Wallpaper!5e0!3m2!1sen!2sin!4v1726298893538!5m2!1sen!2sin" 
-                            height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-        <style>
-            #lnk100 {
-                color: #ededed;
-            }
-         </style>
+       
            <!-- Footer Start -->
            <div class="container-fluid footer  wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-3">
