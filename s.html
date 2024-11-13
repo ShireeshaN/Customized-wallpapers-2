@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Call & Message Icons</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating WhatsApp call and message icons -->
+    <div class="whatsapp-buttons">
+        <a href="tel:+1234567890" class="whatsapp-icon">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/+1234567890" class="whatsapp-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <style>
+      body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.whatsapp-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    background-color: #FC3441; /* WhatsApp Green background */
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-icon i {
+    display: block;
+}
+
+.whatsapp-buttons:hover {
+    background-color: white; /* Darker green on hover */
+    color: #FC3441;
+}
+.whatsapp-buttons:hover .whatsapp-icon {
+  color: #FC3441;
+}
+    </style>
+</body>
+</html>
