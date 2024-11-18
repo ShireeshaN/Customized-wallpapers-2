@@ -277,6 +277,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     transition: 1s;
+  
 }
 
 @keyframes image-zoom {
