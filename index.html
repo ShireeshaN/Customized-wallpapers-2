@@ -255,9 +255,17 @@
                                         return false;
                                         }
                                         if (isEmpty(document.getElementById('data_3').value.trim())) {
-                                        alert('Phone Number is required!');
-                                        return false;
-                                        }
+    alert('Phone Number is required!');
+    return false;
+} 
+
+var phoneNumber = document.getElementById('data_3').value.trim();
+
+// Check if the input is exactly 10 digits
+if (!/^\d{10}$/.test(phoneNumber)) {
+    alert('Please enter a valid 10-digit phone number!');
+    return false;
+}
                                         return true;
                                         }
                                         function isEmpty(str) { return (str.length === 0 || !str.trim()); }
